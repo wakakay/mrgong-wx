@@ -1,0 +1,14 @@
+<view class="ui-swiper-box">
+    <swiper indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imagesList}}">
+            <swiper-item>
+                <image src="{{item}}" class="swiper-image" />
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+<view wx:for="{{imagesList}}" wx:for-index="index" wx:for-item="item">
+    {{index}}: {{item}}
+</view>

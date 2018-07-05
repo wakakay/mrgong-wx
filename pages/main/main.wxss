@@ -1,0 +1,4 @@
+@import "../../components/trip/trip.wxss";
+
+.ui-swiper-box{}
+.swiper-image{width:100%;height:100%;}
