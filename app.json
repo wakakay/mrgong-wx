@@ -1,47 +1,47 @@
 {
-    "pages": [
-        "pages/main/main",
-        "pages/order/order-list",
-        "pages/stock/stock-list",
-        "pages/other/other-list"
-    ],
-    "window": {
-        "backgroundTextStyle": "dark",
-        "navigationBarBackgroundColor": "#4abdcc",
-        "navigationBarTitleText": "旗舰店",
-        "navigationBarTextStyle": "white"
-    },
-    "tabBar": {
-        "color": "#b0b0b0",
-        "selectedColor": "#4abdcc",
-        "borderStyle": "white",
-        "backgroundColor": "#fff",
-        "list": [
-            {
-                "pagePath": "pages/main/main",
-                "iconPath": "assets/images/index_normal.png",
-                "selectedIconPath": "assets/images/index_pressed.png",
-                "text": "首页"
-            },
-            {
-                "pagePath": "pages/order/order-list",
-                "iconPath": "assets/images/explore_normal.png",
-                "selectedIconPath": "assets/images/explore_pressed.png",
-                "text": "下单"
-            },
-            {
-                "pagePath": "pages/stock/stock-list",
-                "iconPath": "assets/images/explore_normal.png",
-                "selectedIconPath": "assets/images/explore_pressed.png",
-                "text": "库存"
-            },
-            {
-                "pagePath": "pages/other/other-list",
-                "iconPath": "assets/images/explore_normal.png",
-                "selectedIconPath": "assets/images/explore_pressed.png",
-                "text": "更多"
-            }
-        ]
-    },
-    "debug": true
+  "pages": [
+    "pages/main/main",
+    "pages/order/order-list",
+    "pages/stock/stock-list",
+    "pages/other/other-list"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4abdcc",
+    "navigationBarTitleText": "旗舰店",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#b0b0b0",
+    "selectedColor": "#4abdcc",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "assets/images/index_normal.png",
+        "selectedIconPath": "assets/images/index_pressed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order-list",
+        "iconPath": "assets/images/explore_normal.png",
+        "selectedIconPath": "assets/images/explore_pressed.png",
+        "text": "下单"
+      },
+      {
+        "pagePath": "pages/stock/stock-list",
+        "iconPath": "assets/images/explore_normal.png",
+        "selectedIconPath": "assets/images/explore_pressed.png",
+        "text": "库存"
+      },
+      {
+        "pagePath": "pages/other/other-list",
+        "iconPath": "assets/images/explore_normal.png",
+        "selectedIconPath": "assets/images/explore_pressed.png",
+        "text": "更多"
+      }
+    ]
+  },
+  "debug": true
 }

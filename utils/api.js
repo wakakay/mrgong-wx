@@ -1,4 +1,4 @@
-const baseUrl = 'http://gethost.runwise.cn'
+const baseUrl = 'https://gethost.runwise.cn'
 
 const wxRequest = (actionObj) => {
     let url = baseUrl + actionObj.url
