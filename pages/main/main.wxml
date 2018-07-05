@@ -8,7 +8,3 @@
         </block>
     </swiper>
 </view>
-
-<view wx:for="{{imagesList}}" wx:for-index="index" wx:for-item="item">
-    {{index}}: {{item}}
-</view>
