@@ -9,6 +9,9 @@ Page({
         interval: 5000,
         duration: 1000,
         imagesList: [],
+
+        toView: 'red',
+        scrollLeft: 100
     },
     onLoad(options) {
         let self = this
@@ -21,9 +24,21 @@ Page({
         self.__imagesList()
     },
 
-    onShow () {
-        let self = this
-
+    tap: function(e) {
+        let order = ['green', 'red', 'yellow', 'blue']
+        for (var i = 0; i < order.length; ++i) {
+            if (order[i] === this.data.toView) {
+                this.setData({
+                    toView: order[i + 1]
+                })
+                break
+            }
+        }
+    },
+    tapMove: function(e) {
+        this.setData({
+            scrollLeft: this.data.scrollLeft - 10
+        })
     },
 
     __imagesList () {
