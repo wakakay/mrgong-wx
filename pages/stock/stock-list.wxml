@@ -1,0 +1,43 @@
+<view class="ui-nav-box">
+    <scroll-view class="ui-data-content" scroll-x="true">
+        <view class="ui-item">
+            <text class="cell-title">全部</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">蔬菜</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">水果</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">肉类</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">海鲜</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">配料</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">蛋类</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">蔬菜</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">水果</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">肉类</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">海鲜</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">配料</text>
+        </view>
+        <view class="ui-item">
+            <text class="cell-title">蛋类</text>
+        </view>
+    </scroll-view>
+</view>

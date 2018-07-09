@@ -1,9 +1,8 @@
 {
     "pages": [
-
+        "pages/stock/stock-list",
         "pages/order/order-list",
         "pages/main/main",
-        "pages/stock/stock-list",
         "pages/other/other-list"
     ],
     "window": {

@@ -11,7 +11,9 @@
 
 Page({
     data: {
-        name: "test"
+        navList: {
+
+        }
     }
 })
 
