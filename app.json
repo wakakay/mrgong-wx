@@ -1,9 +1,9 @@
 {
     "pages": [
+        "pages/other/other-list",
         "pages/stock/stock-list",
         "pages/order/order-list",
-        "pages/main/main",
-        "pages/other/other-list"
+        "pages/main/main"
     ],
     "window": {
         "backgroundTextStyle": "light",

@@ -10,6 +10,54 @@
     </view>
 
     <view class="ui-tab-list">
-    
+        <view class="ui-list-low">
+            <view class="ui-list-box">
+                <image src="../../assets/images/more_ico_order.png"></image>
+                <text>订货单</text>
+            </view>
+            <view class="ui-list-box">
+                <image src="../../assets/images/more_ico_returned.png"></image>
+                <text>退货单</text>
+            </view>
+            <view class="ui-list-box">
+                <image src="../../assets/images/more_ico_stock.png"></image>
+                <text>盘点单</text>
+            </view>
+        </view>
+        <view class="ui-list-low">
+            <view class="ui-list-box">
+                <image src="../../assets/images/more_ico_buy_list.png"></image>
+                <text>自采记录</text>
+            </view>
+            <view class="ui-list-box">
+                <image src="../../assets/images/more_ico_callinout.png"></image>
+                <text>门店调拨</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="ui-system-list">
+        <view class="ui-system-li">
+            <view>
+                <image src="../../assets/images/more_ico_help_center.png"></image>
+            </view>
+            <view class="ui-li-title">
+                帮助中心
+                <view class="ui-li-narrow">
+                    <image src="../../assets/images/more_btn_more.png"></image>
+                </view>
+            </view>
+        </view>
+        <view class="ui-system-li">
+            <view>
+                <image src="../../assets/images/more_ico_setting.png"></image>
+            </view>
+            <view class="ui-li-title">
+                设置
+                <view class="ui-li-narrow">
+                    <image src="../../assets/images/more_btn_more.png"></image>
+                </view>
+            </view>
+        </view>
     </view>
 </view>
