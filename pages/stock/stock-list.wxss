@@ -1,0 +1,6 @@
+.ui-nav-box{border-bottom:1px solid #e5e5e5;}
+.ui-nav-box .ui-data-content{display:flex;white-space:nowrap;}
+.ui-nav-box .ui-item{display:inline-block;box-sizing:border-box;height:80rpx;margin:0 14rpx;text-align:center;line-height:80rpx;}
+.ui-nav-box .cell-title{display:inline-block;padding:0 10rpx;font-size:30rpx;}
+
+

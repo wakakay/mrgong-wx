@@ -9,12 +9,3 @@
 .ui-order-list .ui-content{display:flex;flex-direction:column;height:240rpx;padding-right:60rpx;}
 .ui-order-list .cell-title{display:block;padding:80rpx 0 10rpx;font-size:36rpx;font-weight:700;color:#434343;text-align:right;}
 .ui-order-list .cell-info{display:block;font-size:24rpx;color:#999;text-align:right;}
-
-
-
-
-
-
-
-
-
