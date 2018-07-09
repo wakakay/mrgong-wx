@@ -1,0 +1,7 @@
+page {background-color: #f5f5f5}
+.ui-user-box {padding:0 40rpx 60rpx;display: flex;justify-content:space-between;background-color: #f5f5f5}
+.ui-user-box .ui-user-name {display: flex;flex-direction: column}
+.ui-user-name p{font-size: 32rpx;color:#999999;}
+.cell-login{font-size: 50rpx;color: #2e2e2e;margin-bottom: 10rpx;font-weight: 600}
+.ui-user-box .ui-user-topic {width: 144rpx;height: 144rpx;display: flex;border-radius: 50%;position: relative;background-color: #fff;}
+.ui-user-topic image {width: 132rpx;height: 132rpx;border-radius: 50%;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%)}

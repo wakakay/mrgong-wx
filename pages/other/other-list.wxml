@@ -1,0 +1,15 @@
+<view class="">
+    <view class="ui-user-box">
+        <view class="ui-user-name">
+            <text class="cell-login">未登录</text>
+            <p>查看编辑个人资料</p>
+        </view>
+        <view class="ui-user-topic">
+            <image src="http://1o922f5485.iok.la:9901/assets/images/profile.jpg"></image>
+        </view>
+    </view>
+
+    <view class="ui-tab-list">
+    
+    </view>
+</view>
