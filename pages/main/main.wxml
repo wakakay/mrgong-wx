@@ -3,17 +3,71 @@
             autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
         <block wx:for="{{imagesList}}" wx:key="index">
             <swiper-item>
-                <image src="{{item}}" class="swiper-image" />
+                <image mode="aspectFill" src="{{item}}" class="swiper-image" />
             </swiper-item>
         </block>
     </swiper>
 </view>
 
+<view class="ui-data-box">
+    <scroll-view class="ui-data-content" scroll-x="true">
+        <view class="ui-data-item">
+            <text class="cell-number">52.8</text>
+            <text class="cell-text">销售增长量(万)</text>
+            <image class="cell-thumb" mode="aspectFit" src="../../assets/images/visitor-home-KPI-icon.png"></image>
+        </view>
+        <view class="ui-data-item">
+            <text class="cell-number">58</text>
+            <text class="cell-text">门店增长量(个)</text>
+            <image class="cell-thumb" mode="aspectFit" src="../../assets/images/visitor-home-KPI-icon.png"></image>
+        </view>
+        <view class="ui-data-item">
+            <text class="cell-number">2.8</text>
+            <text class="cell-text">库存周转率(天)</text>
+            <image class="cell-thumb" mode="aspectFit" src="../../assets/images/visitor-home-KPI-icon.png"></image>
+        </view>
+        <view class="ui-data-item">
+            <text class="cell-number">2.8</text>
+            <text class="cell-text">库存周转率(天)</text>
+            <image class="cell-thumb" mode="aspectFit" src="../../assets/images/visitor-home-KPI-icon.png"></image>
+        </view>
+    </scroll-view>
+</view>
 
-<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
-    <!--  display: inline-block-->
-    <view class="ui-data-item"></view>
-    <view class="ui-data-item"></view>
-    <view class="ui-data-item"></view>
-    <view class="ui-data-item"></view>
-</scroll-view>
+<view class="ui-news-list">
+    <view class="ui-item">
+        <view class="ui-content">
+            <text class="cell-title">你真的了解中央厨房吗？如何更好的培养用户习惯？</text>
+            <text class="cell-src">中央厨房，管理</text>
+        </view>
+        <image class="cell-thumb" mode="aspectFill" src="http://gethost.runwise.cn//api/viewpager/1/-2226651241692749680/image/"></image>
+    </view>
+    <view class="ui-item">
+        <view class="ui-content">
+            <text class="cell-title">你真的了解中央厨房吗？如何更好的培养用户习惯？</text>
+            <text class="cell-src">中央厨房，管理</text>
+        </view>
+        <image class="cell-thumb" mode="aspectFill" src="http://gethost.runwise.cn//api/viewpager/1/-2226651241692749680/image/"></image>
+    </view>
+    <view class="ui-item">
+        <view class="ui-content">
+            <text class="cell-title">你真的了解中央厨房吗？如何更好的培养用户习惯？</text>
+            <text class="cell-src">中央厨房，管理</text>
+        </view>
+        <image class="cell-thumb" mode="aspectFill" src="http://gethost.runwise.cn//api/viewpager/1/-2226651241692749680/image/"></image>
+    </view>
+    <view class="ui-item">
+        <view class="ui-content">
+            <text class="cell-title">你真的了解中央厨房吗？如何更好的培养用户习惯？</text>
+            <text class="cell-src">中央厨房，管理</text>
+        </view>
+        <image class="cell-thumb" mode="aspectFill" src="http://gethost.runwise.cn//api/viewpager/1/-2226651241692749680/image/"></image>
+    </view>
+    <view class="ui-item">
+        <view class="ui-content">
+            <text class="cell-title">你真的了解中央厨房吗？如何更好的培养用户习惯？</text>
+            <text class="cell-src">中央厨房，管理</text>
+        </view>
+        <image class="cell-thumb" mode="aspectFill" src="http://gethost.runwise.cn//api/viewpager/1/-2226651241692749680/image/"></image>
+    </view>
+</view>

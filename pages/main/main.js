@@ -6,9 +6,9 @@ Page({
     data: {
         indicatorDots: false,
         autoplay: false,
-        interval: 5000,
-        duration: 1000,
-        imagesList: [],
+        interval: 3000,
+        duration: 300,
+        imagesList: ['http://gethost.runwise.cn//api/viewpager/1/-2226651241692749680/image/', 'http://gethost.runwise.cn//api/viewpager/1/-2226651241692749680/image/'],
 
         toView: 'red',
         scrollLeft: 100
@@ -21,24 +21,7 @@ Page({
             duration: 100,
         });
 
-        self.__imagesList()
-    },
-
-    tap: function(e) {
-        let order = ['green', 'red', 'yellow', 'blue']
-        for (var i = 0; i < order.length; ++i) {
-            if (order[i] === this.data.toView) {
-                this.setData({
-                    toView: order[i + 1]
-                })
-                break
-            }
-        }
-    },
-    tapMove: function(e) {
-        this.setData({
-            scrollLeft: this.data.scrollLeft - 10
-        })
+        // self.__imagesList()
     },
 
     __imagesList () {
@@ -47,7 +30,7 @@ Page({
         api.viewpagerList({tag: '访客端'}, {
             success: (response) => {
                 _.each(response.post_list, (item) => {
-                    self.data.imagesList.push('http://gethost.runwise.cn/' + item.cover_url)
+                    self.data.imagesList.push('https://gethost.runwise.cn/' + item.cover_url)
                 })
 
                 self.setData({
