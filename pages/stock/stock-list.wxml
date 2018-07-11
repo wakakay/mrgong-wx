@@ -1,43 +1,27 @@
 <view class="ui-nav-box">
     <scroll-view class="ui-data-content" scroll-x="true">
-        <view class="ui-item">
-            <text class="cell-title">全部</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">蔬菜</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">水果</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">肉类</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">海鲜</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">配料</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">蛋类</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">蔬菜</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">水果</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">肉类</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">海鲜</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">配料</text>
-        </view>
-        <view class="ui-item">
-            <text class="cell-title">蛋类</text>
-        </view>
+        <block wx:for="{{navList}}" wx:index="index" wx:key="item.id">
+            <view class="ui-item"
+                  bindtap="getNav" data-params="{{item}}" id="{{item.id}}">
+                <text class="cell-title {{currentNav.id==item.id && 'cell-active'}}">{{item.parent}}</text>
+            </view>
+        </block>
+        <view class="ui-active" style="width: {{currentNav.width}}px; transform: translateX({{currentNav.left - 10}}px); -webkit-transform: translateX({{currentNav.left - 10}}px);"></view>
     </scroll-view>
+
+
+    <view>
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <image class="weui-media-box__thumb" src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">生菜</view>
+                <view class="weui-media-box__desc">100003 | 1kg/件</view>
+            </view>
+            <view>
+                <text>6斤</text>
+            </view>
+        </navigator>
+    </view>
 </view>

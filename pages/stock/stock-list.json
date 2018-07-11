@@ -1,5 +1,5 @@
 {
     "navigationBarTitleText": "当前库存",
     "enablePullDownRefresh": false,
-    "disableScroll": false
+    "disableScroll": true
 }
