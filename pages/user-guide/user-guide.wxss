@@ -1,0 +1,5 @@
+
+page {background-color: #f5f5f5}
+.ui-user-guide {margin-top: 20rpx;background-color: #ffffff;}
+swiper {height: 1200rpx;width: 800rpx;}
+swiper image{height: 100%;}

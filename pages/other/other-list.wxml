@@ -42,10 +42,12 @@
                 <image src="../../assets/images/more_ico_help_center.png"></image>
             </view>
             <view class="ui-li-title">
-                帮助中心
-                <view class="ui-li-narrow">
-                    <image src="../../assets/images/more_btn_more.png"></image>
-                </view>
+                <navigator url="/pages/help-center/help-center" hover-class="navigator-hover">
+                    帮助中心
+                    <view class="ui-li-narrow">
+                        <image src="../../assets/images/more_btn_more.png"></image>
+                    </view>
+                </navigator>
             </view>
         </view>
         <view class="ui-system-li">
