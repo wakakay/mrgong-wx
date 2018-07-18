@@ -1,10 +1,12 @@
 {
     "pages": [
-
-        "pages/stock/stock-list",
-        "pages/order/order-list",
-        "pages/other/other-list",
-        "pages/main/main"
+        "pages/main/main",
+        "pages/user-guide/user-guide",
+        "pages/help-center/help-center",
+        "pages/stock/stock-list/stock-list",
+        "pages/stock/stock-search/stock-search",
+        "pages/order/order-list/order-list",
+        "pages/other/other-list"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -25,13 +27,13 @@
                 "text": "首页"
             },
             {
-                "pagePath": "pages/order/order-list",
+                "pagePath": "pages/order/order-list/order-list",
                 "iconPath": "assets/images/icon-order.png",
                 "selectedIconPath": "assets/images/icon-order-selected.png",
                 "text": "下单"
             },
             {
-                "pagePath": "pages/stock/stock-list",
+                "pagePath": "pages/stock/stock-list/stock-list",
                 "iconPath": "assets/images/icon-stock.png",
                 "selectedIconPath": "assets/images/icon-stock-selected.png",
                 "text": "库存"

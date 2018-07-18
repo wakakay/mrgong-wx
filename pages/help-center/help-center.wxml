@@ -2,12 +2,12 @@
     <navigator url="/pages/user-guide/user-guide" hover-class="navigator-hover">
         <view class="ui-item">
             <view>
-                <image src="../../assets/images/setting-guidance.png"></image>
+                <image mode="aspectFull" src="../../assets/images/setting-guidance.png"></image>
             </view>
             <view class="ui-title">
                 用户指南 
                 <view class="ui-item-narrow">
-                    <image src="../../assets/images/more_btn_more.png"></image>
+                    <image mode="aspectFull" src="../../assets/images/more_btn_more.png"></image>
                 </view>
             </view>
         </view>

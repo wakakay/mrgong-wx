@@ -1,21 +1,21 @@
 <view class="ui-background"></view>
 <view class="ui-order-list">
     <view class="ui-item">
-        <image class="cell-thumb" mode="aspectFit" src="../../assets/images/restaurant_order_icon_list.png"></image>
+        <image class="cell-thumb" mode="aspectFit" src="../../../assets/images/restaurant_order_icon_list.png"></image>
         <view class="ui-content">
             <text class="cell-title">常购清单</text>
             <text class="cell-info">常买清单都在这，快速一键下单</text>
         </view>
     </view>
     <view class="ui-item">
-        <image class="cell-thumb" mode="aspectFit" src="../../assets/images/restaurant_order_icon_selfhelp.png"></image>
+        <image class="cell-thumb" mode="aspectFit" src="../../../assets/images/restaurant_order_icon_selfhelp.png"></image>
         <view class="ui-content">
             <text class="cell-title">自助下单</text>
             <text class="cell-info">喜欢自己来？试试自助下单</text>
         </view>
     </view>
     <view class="ui-item">
-        <image class="cell-thumb" mode="aspectFit" src="../../assets/images/restaurant_order_icon_smart.png"></image>
+        <image class="cell-thumb" mode="aspectFit" src="../../../assets/images/restaurant_order_icon_smart.png"></image>
         <view class="ui-content">
             <text class="cell-title">智能下单</text>
             <text class="cell-info">智能分析，精准预测下单</text>

@@ -1,0 +1,231 @@
+<view class="ui-tool cross-center">
+    <view class="cell-placeholder cell-search main-start cross-center" bindtap="getSearch">
+        <image mode="aspectFit" src="../../../assets/images/search.png"></image>
+        请输入商品关键字或商品编号
+    </view>
+</view>
+
+<view class="ui-nav-box">
+    <scroll-view class="ui-data-content" scroll-x="true">
+        <block wx:for="{{category}}" wx:index="index" wx:key="item.id">
+            <view class="ui-item"
+                  bindtap="getNav" data-params="{{item}}" id="{{item.id}}">
+                <text class="cell-title {{currentNav.id==item.id && 'cell-active'}}">{{item.categoryParent}}</text>
+            </view>
+        </block>
+        <view class="ui-active" style="width: {{currentNav.width}}px; transform: translateX({{currentNav.left - 6}}px); -webkit-transform: translateX({{currentNav.left - 6}}px);"></view>
+    </scroll-view>
+</view>
+
+<scroll-view  style="height: {{srcollHeight}}px;" scroll-y="true">
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
+        <view class="cell-thumb">
+            <image src="http://1o922f5485.iok.la:8085/gongfu/image/product/-7717522270317075868/5872/image/" />
+        </view>
+        <view class="ui-content main-center">
+            <view class="flex dir-top">
+                <text class="cell-title">生菜</text>
+                <text class="cell-info">100003 | 1kg/件</text>
+            </view>
+            <view class="ui-unit main-end cross-center">
+                <text class="cell-number">16</text>
+                <text class="cell-unit">斤</text>
+            </view>
+        </view>
+    </navigator>
+</scroll-view>

@@ -1,13 +1,33 @@
 /**app.wxss**/
 @import "weui.wxss";
-
+view, navigator{box-sizing:border-box;}
 page{background-color: #f5f5f5;}
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+.container {height:100%;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:200rpx 0;box-sizing:border-box;}
+
+.cell-placeholder{font-size:30rpx;color:#ccc;}
+
+.flex{display:flex;width:100%;height:100%;}
+/* 主轴对齐方式 */
+.dir-left{display:flex;width:100%;height:100%;flex-direction:row;}
+.dir-right{display:flex;width:100%;height:100%;flex-direction:row-reverse;}
+.dir-top{display:flex;width:100%;height:100%;flex-direction:column;}
+.dir-bottom{display:flex;width:100%;height:100%;flex-direction:column-reverse;}
+
+/* 主轴排列方式 */
+.main-start{display:flex;width:100%;height:100%;justify-content:flex-start;}
+.main-end{display:flex;width:100%;height:100%;justify-content:flex-end;}
+.main-between{display:flex;width:100%;height:100%;justify-content:space-between;}
+.main-center{display:flex;width:100%;height:100%;justify-content:center;}
+.main-around{display:flex;width:100%;height:100%;justify-content:space-around;}
+
+/* 换行设置 */
+.wrap-nowrap{display:flex;width:100%;height:100%;flex-wrap:nowrap;}
+.wrap-wrap{display:flex;width:100%;height:100%;flex-wrap:wrap;}
+.wrap-reverse{display:flex;width:100%;height:100%;flex-wrap:wrap-reverse;}
+
+/* 交叉轴排列方式 */
+.cross-start{display:flex;width:100%;height:100%;align-items:flex-start;}
+.cross-end{display:flex;width:100%;height:100%;align-items:flex-end;}
+.cross-center{display:flex;width:100%;height:100%;align-items:center;}
+.cross-baseline{display:flex;width:100%;height:100%;align-items:baseline;}
+.cross-stretch{display:flex;width:100%;height:100%;align-items:stretch;}

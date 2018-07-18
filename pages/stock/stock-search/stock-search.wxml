@@ -1,0 +1,12 @@
+<view class="ui-tool cross-center">
+    <view class="cell-placeholder cell-search main-start cross-center">
+        <image mode="aspectFit" src="../../../assets/images/search.png"></image>
+        <input type="text"
+               confirm-type="search"
+               placeholder-class="cell-placeholder"
+               maxlength="10"
+               focus
+               placeholder="请输入商品关键字或商品编号" />
+    </view>
+    <text class="cell-cancel" bindtap="getCancel">取消</text>
+</view>
