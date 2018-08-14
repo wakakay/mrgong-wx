@@ -1,0 +1,11 @@
+<view class="ui-nav-box flex">
+    <scroll-view class="ui-data-content" scroll-x="true">
+        <block wx:for="{{categroyList}}" wx:index="index" wx:key="item.id">
+            <view class="ui-item"
+                  bindtap="getNav" data-params="{{item}}" id="{{item.id}}">
+                <text class="cell-title {{currentNav.id==item.id && 'cell-active'}}">{{item.categoryParent}}</text>
+            </view>
+        </block>
+        <view class="ui-active" style="width: {{currentNav.width}}px; transform: translateX({{currentNav.left - 6}}px); -webkit-transform: translateX({{currentNav.left - 6}}px);"></view>
+    </scroll-view>
+</view>

@@ -1,11 +1,26 @@
 <view class="ui-tool cross-center">
     <view class="cell-placeholder cell-search main-start cross-center" bindtap="getSearch">
-        <image mode="aspectFit" src="../../../assets/images/search.png"></image>
+        <text class="icon-search"></text>
         请输入商品关键字或商品编号
     </view>
 </view>
 
-<view class="ui-nav-box">
+<!--<view class="container">
+    <dialog id='dialog'
+            title='我是标题'
+            content='恭喜你，学会了小程序组件'
+            cancelText='知道了'
+            confirm='谢谢你'
+            bind:cancelEvent="_cancelEvent"
+            bind:confirmEvent="_confirmEvent">
+    </dialog>
+
+    <button type="primary" bindtap="showDialog"> ClickMe! </button>
+</view>-->
+
+<tab-page id='tab-page' categroyList="{{category}}" bindClick="getNav"></tab-page>
+
+<!--<view class="ui-nav-box">
     <scroll-view class="ui-data-content" scroll-x="true">
         <block wx:for="{{category}}" wx:index="index" wx:key="item.id">
             <view class="ui-item"
@@ -15,7 +30,7 @@
         </block>
         <view class="ui-active" style="width: {{currentNav.width}}px; transform: translateX({{currentNav.left - 6}}px); -webkit-transform: translateX({{currentNav.left - 6}}px);"></view>
     </scroll-view>
-</view>
+</view>-->
 
 <scroll-view  style="height: {{srcollHeight}}px;" scroll-y="true">
     <navigator url="" class="ui-list-item flex" hover-class="weui-cell_active">
@@ -229,3 +244,9 @@
         </view>
     </navigator>
 </scroll-view>
+
+<view class="ui-button">
+    <button type="primary" hover-class="cell-button-primary-hover">开始盘点</button>
+</view>
+
+<footer-tab id='footer-tab'></footer-tab>

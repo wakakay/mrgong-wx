@@ -1,0 +1,6 @@
+.ui-nav-box{background-color:#fff;border-bottom:1px solid #e5e5e5;}
+.ui-nav-box .ui-data-content{display:flex;white-space:nowrap;position:relative;}
+.ui-nav-box .ui-item{display:inline-block;margin:0 14rpx;text-align:center;}
+.ui-nav-box .cell-title{display:inline-block;height:80rpx;padding:0 10rpx;font-size:30rpx;line-height:80rpx;}
+.ui-nav-box .cell-active{font-weith:700;color:#8BC542;}
+.ui-nav-box .ui-active{width:40px;height:4rpx;background-color:#8BC542;position:absolute;left:14rpx;top:77rpx;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}

@@ -1,6 +1,6 @@
 .ui-tool{height:82rpx;padding:14rpx 15rpx;background-color:#8BC542;}
 .ui-tool .cell-search{height:64rpx;padding:0 20rpx;background-color:#fff;border:1px solid #e5e5e5;}
-.ui-tool .cell-search image{width:32rpx;height:32rpx;padding-right:10rpx;}
+.ui-tool .cell-search [class^="icon-"]{line-height:64rpx;padding-right:10rpx;}
 
 .ui-tool .cell-btn{display:block;padding:0 15rpx;font-size:32rpx;color:#5F646E;}
 
@@ -18,3 +18,5 @@
 .ui-list-item .cell-info{font-size:22rpx;color:#2e2e2e;}
 .ui-list-item .ui-unit{width:60rpx;font-size:32rpx;color:#2e2e2e;}
 .ui-list-item .cell-number{padding-right:8rpx;font-weight:700;}
+
+.ui-button{width:100%;height:100rpx;padding:0 20rpx;margin:6px 0;}

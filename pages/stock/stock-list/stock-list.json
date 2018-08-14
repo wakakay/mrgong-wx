@@ -3,5 +3,11 @@
     "navigationBarBackgroundColor": "#8BC542",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": false,
-    "disableScroll": true
+    "disableScroll": true,
+
+    "usingComponents": {
+        "dialog": "../../../components/dialog/dialog",
+        "tab-page": "../../../components/tab-page/tab-page",
+        "footer-tab": "../../../components/footer-tab/footer-tab"
+    }
 }

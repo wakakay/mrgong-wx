@@ -1,6 +1,6 @@
 .ui-tool{height:82rpx;padding:14rpx 15rpx;background-color:#8BC542;}
 .ui-tool .cell-search{height:64rpx;padding:0 20rpx;background-color:#fff;border:1px solid #e5e5e5;}
-.ui-tool .cell-search image{width:32rpx;height:32rpx;padding-right:10rpx;}
+.ui-tool .cell-search [class^="icon-"]{line-height:64rpx;padding-right:10rpx;}
 .ui-tool .cell-search input{width:90%;color:#2e2e2e;}
 .ui-tool .cell-cancel{display:block;width:80rpx;padding:0 15rpx;font-size:32rpx;color:#fff;}
 

@@ -9,6 +9,7 @@
  *
  */
 const _ = require('../../../libs/underscore.js')
+
 Page({
     data: {
         srcollHeight: 0,
@@ -16,7 +17,7 @@ Page({
             id: 1,
             categoryParent: '全部'
         },
-        navInfoList: [],
+
         category: [
             {
                 id: 1,
@@ -108,48 +109,37 @@ Page({
         ],
         products: []
     },
+    /**
+     * 生命周期函数--监听页面初次渲染完成
+     */
+    onReady: function () {
+        // 获得dialog组件
+        let self = this
+        self.dialog = self.selectComponent("#dialog");
+        self.tabPage = self.selectComponent("#tab-page");
+        self.footerTab = self.selectComponent("#footer-tab");
+    },
+
     onLoad() {
         let self = this
-
         //wx.hideTabBar({})
 
         // 获取系统信息
         wx.getSystemInfo({
             success: function (response) {
                 self.setData({
-                    srcollHeight: response.windowHeight - 80,
+                    srcollHeight: response.windowHeight - 80 - 58 - 64,
                 })
             }
         })
-        // 获取每个导航的宽度
-        let query = wx.createSelectorQuery()
-        query.selectAll('.ui-item').boundingClientRect()
-        query.exec(function (response) {
-            _.each(response[0], (item, index) => {
-                item.id = index + 1
-            })
-            self.setData({
-                navInfoList: response[0],
-            })
-        })
     },
-
     getSearch() {
         wx.navigateTo({
             url: `../stock-search/stock-search`
         })
     },
-    getNav(e) {
-        let self = this
-        let currentNav = e.currentTarget.dataset.params
-        let id = parseInt(e.currentTarget.id)
-
-        let item = _.find(self.data.navInfoList, {id: id})
-        _.extend(currentNav, item)
-
-        self.setData({
-            currentNav: currentNav
-        })
+    getNav(data) {
+        console.log(11, data)
     }
 })
 

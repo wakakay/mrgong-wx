@@ -1,6 +1,6 @@
 <view class="ui-tool cross-center">
     <view class="cell-placeholder cell-search main-start cross-center">
-        <image mode="aspectFit" src="../../../assets/images/search.png"></image>
+        <text class="icon-search"></text>
         <input type="text"
                confirm-type="search"
                placeholder-class="cell-placeholder"

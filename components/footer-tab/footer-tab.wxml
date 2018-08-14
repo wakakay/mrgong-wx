@@ -1,0 +1,8 @@
+<view class="ui-footer-tab main-between">
+    <block wx:for="{{list}}" wx:key="index">
+        <view class="ui-item main-center cross-center">
+            <text class="iconfont {{item.icon}}"></text>
+            <text>{{item.title}}</text>
+        </view>
+    </block>
+</view>
